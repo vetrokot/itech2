@@ -1,0 +1,32 @@
+h1{
+color: #fc3}
+
+	#jumpbutton {
+	width: 100px;
+	height: 40px;
+	color: #524f3c;
+	background: #c1c9d4; 
+	position: relative;
+	animation: jump;
+	animation-duration: 1s;
+	animation-iteration-count: 100;
+	}
+	
+	@keyframes jump {
+from {left: 0px;}
+10%{bottom: -10px}
+20%{bottom: -20px}
+30%{bottom: -30px}
+40%{bottom: -40px}
+50%{bottom: -50px}
+60%{bottom: 10px}
+70%{bottom: 20px}
+100%{bottom: 0px}
+to {left: 0px; bottom: 0px;}
+}
+
+.myclass
+	{
+	color: red;
+	}
+	
